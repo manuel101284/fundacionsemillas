@@ -3,11 +3,10 @@
     font-family: 'Dosis', sans-serif;
 
     font-family: 'Playfair Display', serif;
-
 */
 
 /* Responsive Mobile inicio */
-@media (max-width: 500px){
+@media screen and (max-width: 500px)  and (orientation: portrait){
     body{
         background-color: #ffffff;
         margin: 0px;
@@ -15,6 +14,7 @@
     }
     .container{
         display: flex;
+        flex-direction: column;
     }
     h1{
         font-family: 'Dosis',sans-serif;
@@ -23,11 +23,12 @@
     }
     .header-01{
         display: flex;
+        position: relative;
         background-color: #009458;
-        width: 150%;
+        width: 100%;
         height: 70px;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
     .logo-home{
         display: flex;
@@ -37,7 +38,8 @@
     .fundasemillas{
         visibility: hidden;
         display: inline-block;
-        border: black solid 2px;
+        position: relative;
+        /* border: black solid 2px; */
         margin: auto 0px;
         font-family: 'Dosis', sans-serif;
         justify-self: center;
@@ -49,60 +51,65 @@
         display: flexbox;
         background-image: url('/img/hoja.svg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
     a>.nav-btn{
+        display: flex;
+        margin: 0px;
         font-size: 'Dosis', sans-serif;
         font-weight: 400;
         color: #ffffff;
         text-align: center;
-        padding: 5px;
+        padding: 35px auto 5px auto;
     }
     #nav-btn-01{
-        display: block;
+        display: flex;
+        position: relative;
         text-align: center;
         align-self: center;
-        margin: 15px 5px auto -4px;
+        margin: 15px 10px 0px 10px;      
         font-size: 10pt;
     }
     #nav-btn-02{
-        display: block;
+        display: flex;
+        position: relative;
         text-align: center;
         align-self: center;
-        margin: 15px 5px auto -2px;
+        margin: 15px 10px 0px 10px;
         font-size: 10pt;
     }
     #nav-btn-03{
-        display: block;
+        display: flex;
+        position: relative;
         text-align: center;
         align-self: center;
-        margin: 15px 5px auto 0px;
+        margin: 15px 10px 0px 10px;
         font-size: 10pt;
     }
     .tareas-1{
         display: flex;
         /* background-color: red;
         border: black solid 2px; */
-        margin: 3px;
+        margin: 0px;
     }
     .emociones-1{
         display: flex;
         /* background-color: blue;
         border: black solid 2px; */
-        margin: 3px;
+        margin: 0px;
     }
     .dashboard-1{
         display: flex;
         /* background-color: yellow;
         border: black solid 2px; */
-        margin: 3px;
+        margin: 0px;
     }
     .contenido{
-        width: 60%;
-        display: block;
+        width: 100%;
+        display: flex;
         position: relative;
         flex-direction: column;
-        margin: 200px 300px 150px -360px;
+        margin: 100px auto 100px auto;
         justify-content: space-between;
     }
     .tareas-01,.emociones-01,.dashboard-01{
@@ -112,10 +119,10 @@
     }
     .tareas-01{
         display: block;
-        width: 280px;
-        height: 140px;
+        width: 300px;
+        height: 150px;
         padding: 0px 10px;
-        margin: 5s0px auto 50px auto;
+        margin: 30px auto 30px auto;
         border-bottom-left-radius: 150px;
         border-top-right-radius: 150px;
         border-color: solid black 2px;
@@ -123,10 +130,10 @@
     }
     .emociones-01{
         display: block;
-        width: 280px;
-        height: 140px;
+        width: 300px;
+        height: 150px;
         padding: 0px 10px;
-        margin: 50px auto 50px auto;
+        margin: 30px auto 30px auto;
         border-bottom-left-radius: 150px;
         border-top-right-radius: 150px;
         border-color: solid black 2px;
@@ -134,10 +141,10 @@
     }
     .dashboard-01{
         display: block;
-        width: 280px;
-        height: 140px;
+        width: 300px;
+        height: 150px;
         padding: 0px 10px;
-        margin:50px auto 50px auto;
+        margin: 30px auto 30px auto;
         border-bottom-left-radius: 150px;
         border-top-right-radius: 150px;
         border-color: solid black 2px;
@@ -147,21 +154,21 @@
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
-        margin: 5px 15px;
+        margin: -10px 20px;
         font-size: 9pt;
     }
     .emociones-01>p{
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
-        margin: 5px 15px;
+        margin: -10px 20px;
         font-size: 9pt;
     }
     .dashboard-01>p{
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
-        margin: 5px 15px;
+        margin: -10px 20px;
         font-size: 9pt;
     }    
         
@@ -213,7 +220,7 @@
 /* Responsive mobile fin */
 
 /* Responsive tablet inicio */
-@media (min-width: 600px) and (max-width: 800px) {
+@media screen and (min-width: 600px) and (max-width: 800px){
     body{
         background-color: #ffffff;
         margin: 0px;
@@ -221,6 +228,7 @@
     }
     .container{
         display: flex;
+        flex-direction: column;
     }
     h1{
         font-family: 'Dosis',sans-serif;
@@ -229,9 +237,225 @@
     }
     .header-01{
         display: flex;
+        position: relative;
         background-color: #009458;
         width: 100%;
+        height: 90px;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .logo-home{
+        display: flex;
+        /* border: black solid 2px; */
+        margin: 0px;
+    }
+    .fundasemillas{
+        visibility: visible;
+        display: inline-block;
+        position: relative;
+        /* border: black solid 2px; */
+        /* margin: auto 5px; */
+        font-family: 'Dosis', sans-serif;
+        justify-self: center;
+        color: #ffffff;
+        font-size: 28pt;
+        font-weight: 800;
+        margin: auto 5px;
+    }
+    .acceso-1{
+        display: flexbox;
+        background-image: url('/img/hoja.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    a>.nav-btn{
+        display: flex;
+        margin: 0px;
+        font-size: 'Dosis', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        padding: 45px auto 5px auto;
+    }
+    #nav-btn-01{
+        display: flex;
+        position: relative;
+        text-align: center;
+        align-self: center;
+        margin: 35px 10px 0px 10px;
+        font-size: 14pt;
+    }
+    #nav-btn-02{
+        display: flex;
+        position: relative;
+        text-align: center;
+        align-self: center;
+        margin: 35px 10px 0px 10px;
+        font-size: 14pt;
+    }
+    #nav-btn-03{
+        display: flex;
+        position: relative;
+        text-align: center;
+        align-self: center;
+        margin: 35px 10px 0px 10px;
+        font-size: 14pt;
+    }
+    .tareas-1{
+        display: flex;
+        /* background-color: red;
+        border: black solid 2px; */
+        margin: 0px;
+    }
+    .emociones-1{
+        display: flex;
+        /* background-color: blue;
+        border: black solid 2px; */
+        margin: 0px;
+    }
+    .dashboard-1{
+        display: flex;
+        /* background-color: yellow;
+        border: black solid 2px; */
+        margin: 0px;
+    }
+    .contenido{
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        margin: 150px auto 150px auto;
+        justify-content: space-between;
+    }
+    .tareas-01,.emociones-01,.dashboard-01{
+        text-align: center;
+        padding: 2px
+        
+    }
+    .tareas-01{
+        display: block;
+        width: 400px;
+        height: 200px;
+        padding: 0px 10px;
+        margin: 30px auto 30px auto;
+        border-bottom-left-radius: 200px;
+        border-top-right-radius: 200px;
+        border-color: solid black 2px;
+        background: linear-gradient(to right, #009458, #00FF99);
+    }
+    .emociones-01{
+        display: block;
+        width: 400px;
+        height: 200px;
+        padding: 0px 10px;
+        margin: 30px auto 30px auto;
+        border-bottom-left-radius: 200px;
+        border-top-right-radius: 200px;
+        border-color: solid black 2px;
+        background: linear-gradient(to right, #009458, #00ffb2);
+    }
+    .dashboard-01{
+        display: block;
+        width: 400px;
+        height: 200px;
+        padding: 0px 10px;
+        margin: 30px auto 30px auto;
+        border-bottom-left-radius: 200px;
+        border-top-right-radius: 200px;
+        border-color: solid black 2px;
+        background: linear-gradient(to right, #009458, #aaee66);
+    }
+    .tareas-01>p{
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Playfair Display', serif;
+        margin: -40px 40px;
+        font-size: 12pt;
+    }
+    .emociones-01>p{
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Playfair Display', serif;
+        margin: -40px 40px;
+        font-size: 12pt;
+    }
+    .dashboard-01>p{
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Playfair Display', serif;
+        margin: -40px 40px;
+        font-size: 12pt;
+    }    
+        
+    .footer-01{
+        display: block;
+        position: relative;
+        /* justify-content: flex-end;
+        justify-self: flex-end; */
+        background-color: #009458;
+        width: 100%;
+        height: 180px;
+        flex-direction: row;
+        justify-content: center;
+        margin: 12px auto 12px auto;
+        padding: 0px auto;
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        background-color: #009458;
         height: 80px;
+        justify-content: space-between;
+        background-color: #69BF97;
+        width: 60%;
+        border-radius: 35px;
+        margin: 10px auto;
+        padding: 0px 10px;
+    }
+    .creators{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        background-color: #009458;
+        height: 80px;
+        justify-content: space-between;
+        background-color: #69BF97;
+        width: 60%;
+        border-radius: 35px;
+        margin: 10px auto;
+        padding: 0px 25px;
+    }
+    .creators-text{
+        font-family: 'Playfair Display', serif;
+        font-size: 14pt;
+        font-weight: 300;
+    }
+}
+/* Responsive Tablet fin */
+
+/* Responsive Desktop inicio */
+@media  screen and (min-width: 1024px) and (max-width: 1920px) and (orientation: landscape){
+    body{
+        background-color: #ffffff;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-family: 'Dosis',sans-serif;
+        font-size: 50pt;
+        color: #ffffff;
+    }
+    .header-01{
+        display: flex;
+        position: relative;
+        background-color: #009458;
+        width: 100%;
+        height: 100px;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -243,13 +467,14 @@
     .fundasemillas{
         visibility: visible;
         display: inline-block;
+        position: relative;
         /* border: black solid 2px; */
-        margin: auto 0px;
         font-family: 'Dosis', sans-serif;
         justify-self: center;
         color: #ffffff;
-        font-size: 10pt;
+        font-size: 50pt;
         font-weight: 800;
+        margin: auto 80px;
     }
     .acceso-1{
         display: flexbox;
@@ -258,57 +483,62 @@
         background-size: cover;
     }
     a>.nav-btn{
+        display: flex;
+        margin: 0px;
         font-size: 'Dosis', sans-serif;
         font-weight: 400;
         color: #ffffff;
         text-align: center;
-        padding: 5px;
+        padding: 65px auto 5px auto;
     }
     #nav-btn-01{
-        display: block;
+        display: flex;
+        position: relative;
         text-align: center;
         align-self: center;
-        margin: 15px 5px auto 0px;
-        font-size: 14pt;
+        margin: 35px 10px 0px 10px;
+        font-size: 16pt;
     }
     #nav-btn-02{
-        display: block;
+        display: flex;
+        position: relative;
         text-align: center;
         align-self: center;
-        margin: 15px 5px auto 0px;
-        font-size: 14pt;
+        margin: 35px 10px 0px 10px;
+        font-size: 16pt;
     }
     #nav-btn-03{
-        display: block;
+        display: flex;
+        position: relative;
         text-align: center;
         align-self: center;
-        margin: 15px 5px auto 0px;
-        font-size: 14pt;
+        margin: 35px 10px 0px 10px;
+        font-size: 16pt;
     }
     .tareas-1{
         display: flex;
         /* background-color: red;
         border: black solid 2px; */
-        margin: 3px;
+        margin: 0px;
     }
     .emociones-1{
         display: flex;
         /* background-color: blue;
         border: black solid 2px; */
-        margin: 3px;
+        margin: 0px;
     }
     .dashboard-1{
         display: flex;
         /* background-color: yellow;
         border: black solid 2px; */
-        margin: 3px;
+        margin: 0px;
     }
     .contenido{
-        width: 60%;
-        display: block;
+        width: 100%;
+        display: flex;
         position: relative;
-        flex-direction: column;
-        margin: 200px 300px 150px -360px;
+        flex-direction: row;
+        margin: 150px auto 150px auto;
         justify-content: space-between;
     }
     .tareas-01,.emociones-01,.dashboard-01{
@@ -318,34 +548,34 @@
     }
     .tareas-01{
         display: block;
-        width: 280px;
-        height: 140px;
-        padding: 0px 10px;
-        margin: 5s0px auto 50px auto;
-        border-bottom-left-radius: 150px;
-        border-top-right-radius: 150px;
+        width: 500px;
+        height: 250px;
+        padding: 0px 30px;
+        margin: auto 40px auto 40px;
+        border-bottom-left-radius: 250px;
+        border-top-right-radius: 250px;
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #00FF99);
     }
     .emociones-01{
         display: block;
-        width: 280px;
-        height: 140px;
-        padding: 0px 10px;
-        margin: 50px auto 50px auto;
-        border-bottom-left-radius: 150px;
-        border-top-right-radius: 150px;
+        width: 500px;
+        height: 250px;
+        padding: 0px 30px;
+        margin: auto 40px auto 40px;
+        border-bottom-left-radius: 250px;
+        border-top-right-radius: 250px;
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #00ffb2);
     }
     .dashboard-01{
         display: block;
-        width: 280px;
-        height: 140px;
-        padding: 0px 10px;
-        margin:50px auto 50px auto;
-        border-bottom-left-radius: 150px;
-        border-top-right-radius: 150px;
+        width: 500px;
+        height: 250px;
+        padding: 0px 30px;
+        margin: auto 40px auto 40px;
+        border-bottom-left-radius: 250px;
+        border-top-right-radius: 250px;
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #aaee66);
     }
@@ -353,67 +583,68 @@
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
-        margin: 5px 15px;
-        font-size: 9pt;
+        margin: -70px 60px;
+        font-size: 14pt;
     }
     .emociones-01>p{
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
-        margin: 5px 15px;
-        font-size: 9pt;
+        margin: -70px 60px;
+        font-size: 14pt;
     }
     .dashboard-01>p{
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
-        margin: 5px 15px;
-        font-size: 9pt;
+        margin: -70px 60px;
+        font-size: 14pt;
     }    
         
     .footer-01{
-        display: block;
+        display: flex;
         position: relative;
-        /* justify-content: flex-end;
-        justify-self: flex-end; */
+        justify-self: flex-end;
         background-color: #009458;
         width: 100%;
-        height: 80px;
+        height: 100px;
         flex-direction: row;
         justify-content: center;
-        margin: 10px auto 10px auto;
-        padding: 5px auto;
+        margin: 12px auto 12px auto;
+        padding: 0px auto;
     }
     .social{
         display: flex;
         flex-direction: row;
         position: relative;
         background-color: #009458;
-        height: 60px;
+        height: 90px;
+        justify-self: flex-start;
         justify-content: space-between;
         background-color: #69BF97;
-        width: 60%;
-        border-radius: 25px;
+        width: 15%;
+        border-radius: 40px;
         margin: 10px auto;
-        padding: 0px 10px;
+        padding: 0px 15px;
     }
     .creators{
         display: flex;
         flex-direction: row;
         position: relative;
         background-color: #009458;
-        height: 60px;
+        height: 90px;
+        justify-self: flex-end;
         justify-content: space-between;
         background-color: #69BF97;
-        width: 60%;
-        border-radius: 25px;
+        width: 25%;
+        border-radius: 40px;
         margin: 10px auto;
-        padding: 0px 25px;
+        padding: 0px 35px;
     }
     .creators-text{
         font-family: 'Playfair Display', serif;
-        font-size: 10pt;
-        font-weight: 300;
+        font-size: 14pt;
+        font-weight: 500;
     }
 }
-/* Responsive Tablet fin */
+/* Responsive Desktop fin */
