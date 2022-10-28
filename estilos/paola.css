@@ -1,99 +1,114 @@
-body{
-    background-color: #ffffff;
-    margin: 0px;
-    padding: 0px;
-}
-.container{
-    display: block;
-}
-h1{
-    font-family: 'Dosis',sans-serif;
-    font-size: 50pt;
-    color: #ffffff;
-}
-.header-01{
-    display: flex;
-    background-color: #009458;
-    width: 100%;
-    height: 130px;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.logo-home{
-    display: inline-block;
-    margin: 0px;
-    margin-left: 4%;
-}
-.fundasemillas{
-    display: inline-block;
-    margin: auto 0px;
-    font-family: 'Dosis', sans-serif;
-    justify-self: center;
-    color: #ffffff;
-    font-size: 50pt;
-    font-weight: 800;
-}
-.nav-btn{
-    font-size: 'Dosis', sans-serif;
-    font-weight: 600;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    justify-items: center;
-    align-self: center;
-    justify-self: center;
-    padding: 10px 15px;
-}
-#nav-btn-01{
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-    margin-top: 40px;
-    font-size: 14pt;
-}
-#nav-btn-02{
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-    margin-top: 40px;
-    font-size: 14pt;
-}
-#nav-btn-03{
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-    margin-top: 40px;
-    font-size: 14pt;
-}
-#rectangle {
-    width: 1300px;
-    height: 50px;
-    background: #69BF97;
-    margin-top: 3%;
-    margin-left: 7.5%;
-}
-.niveles{
-    display: flex;
-    flex-direction: row;
-}
-#rectangle-1{
-    width: 400px;
-    height: 50px;
-    background: #69BF97;
-    margin-top: 1%;
-    margin-left: 7.5%;
-}
-#rectangle-2{
-    width: 400px;
-    height: 50px;
-    background: #69BF97;
-    margin-top: 1%;
-    margin-left: 3%;
-}
-#rectangle-3{
-    width: 400px;
-    height: 50px;
-    background: #69BF97;
-    margin-top: 1%;
-    margin-left: 3.5%;
+@media screen and (min-width: 300px)  and (orientation: portrait){
+    body{
+        background-color: #ffffff;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        display: block;
+    }
+    h1{
+        font-family: 'Dosis',sans-serif;
+        font-size: 50pt;
+        color: #ffffff;
+    }
+    .header-01{
+        display: flex;
+        background-color: #009458;
+        width: 100%;
+        height: 70px;
+        flex-direction: row;
+        justify-content: space-between;
+        position: static;
+    }
+    .logo-home{
+        display: inline-block;
+        margin: 10px;
+        margin-left: 4%;
+    }
+    .fundasemillas{
+        visibility: hidden;
+        display: inline-block;
+        margin: auto 0px;
+        font-family: 'Dosis', sans-serif;
+        justify-self: center;
+        color: #ffffff;
+        font-size: 10pt;
+        font-weight: 800;
+    }
+    .nav-btn{
+        font-size: 'Dosis', sans-serif;
+        font-weight: 600;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        justify-items: center;
+        align-self: center;
+        justify-self: center;
+        padding: 10px 15px;
+    }
+    #nav-btn-01{
+        margin-top: 20px;
+        font-size: 7pt;
+        margin-left: -350px;
+    }
+    #nav-btn-02{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 20px;
+        font-size: 7pt;
+        margin-left: -230px;
+    }
+    #nav-btn-03{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 20px;
+        font-size: 7pt;
+        margin-left: -120px;
+    }
+    .inicio{
+        width: 86px;
+        height: 100px;
+        background: #69BF97;
+    }
+    .container-2{
+        margin-top: 30%;
+        margin-left: 10%;
+    }
+    #rectangle {
+        width: 86px;
+        height: 100px;
+        background: #69BF97;
+        margin-top: 8%;
+        margin-left: 7.5%;
+    }
+    .niveles{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top: -100px;
+    }
+    #rectangle-1{
+        width: 90px;
+        height: 30px;
+        background: #69BF97;
+        margin-top: 1%;
+        margin-left: 7.5%;
+    }
+    #rectangle-2{
+        width: 90px;
+        height: 30px;
+        background: #69BF97;
+        margin-top: 1%;
+        margin-left: 7%;
+    }
+    #rectangle-3{
+        width: 90px;
+        height: 30px;
+        background: #69BF97;
+        margin-top: 1%;
+        margin-left: 7%;
+    }
 }
