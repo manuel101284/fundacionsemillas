@@ -1,0 +1,99 @@
+body{
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: block;
+}
+h1{
+    font-family: 'Dosis',sans-serif;
+    font-size: 50pt;
+    color: #ffffff;
+}
+.header-01{
+    display: flex;
+    background-color: #009458;
+    width: 100%;
+    height: 130px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-home{
+    display: inline-block;
+    margin: 0px;
+    margin-left: 4%;
+}
+.fundasemillas{
+    display: inline-block;
+    margin: auto 0px;
+    font-family: 'Dosis', sans-serif;
+    justify-self: center;
+    color: #ffffff;
+    font-size: 50pt;
+    font-weight: 800;
+}
+.nav-btn{
+    font-size: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
+    padding: 10px 15px;
+}
+#nav-btn-01{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 40px;
+    font-size: 14pt;
+}
+#nav-btn-02{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 40px;
+    font-size: 14pt;
+}
+#nav-btn-03{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 40px;
+    font-size: 14pt;
+}
+#rectangle {
+    width: 1300px;
+    height: 50px;
+    background: #69BF97;
+    margin-top: 3%;
+    margin-left: 7.5%;
+}
+.niveles{
+    display: flex;
+    flex-direction: row;
+}
+#rectangle-1{
+    width: 400px;
+    height: 50px;
+    background: #69BF97;
+    margin-top: 1%;
+    margin-left: 7.5%;
+}
+#rectangle-2{
+    width: 400px;
+    height: 50px;
+    background: #69BF97;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+#rectangle-3{
+    width: 400px;
+    height: 50px;
+    background: #69BF97;
+    margin-top: 1%;
+    margin-left: 3.5%;
+}
