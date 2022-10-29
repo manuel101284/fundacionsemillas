@@ -14,10 +14,10 @@ body{
 .container{
     display: block;
 }
-h1{
+h2{
     font-family: 'Dosis',sans-serif;
-    font-size: 50pt;
-    color: #ffffff;
+    font-size: 25pt;
+    color: #000000;
 }
 .header-01{
     display: flex;
@@ -80,75 +80,129 @@ h1{
 
 
 .contenido{
+    text-align: center;
+    display: block;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 200px auto;
     justify-content: space-between;
 }
-.tareas-01,.emociones-01,.dashboard-01{
+.emoji1,.emoji2,.emoji3,.emoji4,.emoji5,.emoji6{
     text-align: center;
     padding: 20px
 }
-.tareas-01{
+.emoji1{
     display: block;
     width: 450px;
-    height: 300px;
+    height: 100px;
     padding: 0px 80px;
-    border-bottom-left-radius: 250px;
-    border-top-right-radius: 250px;
-    border-color: solid black 2px;
-    background: linear-gradient(to right, #009458, #00FF99);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
-.emociones-01{
+.emoji2{
+    display: block;
+    width: 350px;
+    height: 100px;
+    padding: 0px 80px;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.emoji3{
     display: block;
     width: 450px;
-    height: 300px;
+    height: 100px;
     padding: 0px 80px;
-    border-bottom-left-radius: 250px;
-    border-top-right-radius: 250px;
-    border-color: solid black 2px;
-    background: linear-gradient(to right, #009458, #00ffb2);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
-.dashboard-01{
+.emoji4{
     display: block;
     width: 450px;
-    height: 300px;
+    height: 100px;
     padding: 0px 80px;
-    border-bottom-left-radius: 250px;
-    border-top-right-radius: 250px;
-    border-color: solid black 2px;
-    background: linear-gradient(to right, #009458, #aaee66);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
-.tareas-01>p{
+.emoji5{
+    display: block;
+    width: 450px;
+    height: 100px;
+    padding: 0px 80px;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.emoji6{
+    display: block;
+    width: 450px;
+    height: 100px;
+    padding: 0px 80px;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.emoji1>p{
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     font-family: 'Playfair Display', serif;
     margin-top: -60px;
     font-size: 14pt;
 }
-.emociones-01>p{
+.emoji2>p{
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     font-family: 'Playfair Display', serif;
     margin-top: -60px;
     font-size: 14pt;
 }
-.dashboard-01>p{
+.emoji3>p{
     text-align: center;
-    color: #ffffff;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    margin-top: -60px;
+    font-size: 14pt;
+}
+.emoji4>p{
+    text-align: center;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    margin-top: -60px;
+    font-size: 14pt;
+}
+.emoji5>p{
+    text-align: center;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    margin-top: -60px;
+    font-size: 14pt;
+}
+.emoji6>p{
+    text-align: center;
+    color: #000000;
     font-family: 'Playfair Display', serif;
     margin-top: -60px;
     font-size: 14pt;
 }    
 .talkbubble {
-    width: 120px;
-    height: 80px;
-    background: red;
+    width: 450px;
+    height: 150px;
+    background: #B5DCCC;
     position: relative;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    background: linear-gradient(to right, #B5DCCC);
 }
 .talkbubble:before {
     content: "";
@@ -158,10 +212,11 @@ h1{
     width: 0;
     height: 0;
     border-top: 13px solid transparent;
-    border-right: 26px solid red;
+    border-right: 26px solid #B5DCCC;
     border-bottom: 13px solid transparent;
+    background: linear-gradient(to right, #B5DCCC);
 }
-
+.bloque-emoji1
 
 
 
