@@ -18,7 +18,7 @@
         width: 400px;
         margin-left: 4px;
         margin-bottom: 40px;
-        margin-top: 40px;
+        margin-top: 150px;
     }
     .grafica-barras{
         display: flex;
@@ -269,7 +269,7 @@
         width: 600px;
         margin-left: 4px;
         margin-bottom: 40px;
-        margin-top: 40px;
+        margin-top: 150px;
     }
 
     .grafica-barras {
@@ -413,7 +413,7 @@
         font-family: 'Dosis', sans-serif;
         font-size: 20pt;
         color: black;
-        padding: 40px 10px 40px 10px;
+        padding: 40px 20px 40px 20px;
         width: 100px;
     }
 
@@ -425,7 +425,7 @@
         background: #69BF97;
         justify-content: center;
         align-content: center;
-        margin-left: -12px;
+        margin-left: -10px;
         width: 100px;
         height: 40px;
         margin-right: -26px;
@@ -553,7 +553,7 @@
         width: 650px;
         margin-left: 20px;
         margin-bottom: 50px;
-        margin-top: 50px;
+        margin-top: 100px;
 
     }
 
@@ -682,6 +682,7 @@
         justify-content: center;
         width: 600px;
         margin-left: 250px;
+        margin-top: 100px;
     }
 
     .grafica2 {

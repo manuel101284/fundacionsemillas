@@ -28,7 +28,8 @@
 
     .header-01 {
         display: flex;
-        position: relative;
+        z-index: 8;/*esto lo coloco lily */
+        position: fixed;/*esto lo coloco lily */
         background-color: #009458;
         width: 100%;
         height: 70px;
@@ -40,6 +41,7 @@
         display: flex;
         /* border: black solid 2px; */
         margin: 0px;
+        
     }
 
     .fundasemillas {
@@ -65,7 +67,7 @@
     a>.nav-btn {
         display: flex;
         margin: 0px;
-        font-size: 'Dosis', sans-serif;
+        font-family: 'Dosis', sans-serif;/*esto lo modifico lily */
         font-weight: 400;
         color: #ffffff;
         text-align: center;
@@ -77,28 +79,28 @@
         position: relative;
         text-align: center;
         align-self: center;
-        margin: 15px 10px 0px 10px;
+        margin: 20px 10px 0px 10px;/*esto lo modifico lily */
         font-size: 8pt;
     }
-
+    
     #nav-btn-02 {
         display: flex;
         position: relative;
         text-align: center;
         align-self: center;
-        margin: 15px 10px 0px 10px;
+        margin: 20px 10px 0px 10px;/*esto lo modifico lily */
         font-size: 8pt;
     }
-
+    
     #nav-btn-03 {
         display: flex;
         position: relative;
         text-align: center;
         align-self: center;
-        margin: 15px 10px 0px 10px;
+        margin: 20px 10px 0px 10px;/*esto lo modifico lily */
         font-size: 8pt;
     }
-
+    
     .tareas-1 {
         display: flex;
         /* background-color: red;
@@ -268,12 +270,14 @@
 
     .header-01 {
         display: flex;
-        position: relative;
+        z-index: 8;/*esto lo coloco lily */
+        position: fixed;/*esto lo coloco lily */
         background-color: #009458;
         width: 100%;
         height: 90px;
         flex-direction: row;
         justify-content: flex-start;
+        
     }
 
     .logo-home {
@@ -321,7 +325,7 @@
         margin: 35px 10px 0px 10px;
         font-size: 12pt;
     }
-
+    
     #nav-btn-02 {
         display: flex;
         position: relative;
@@ -330,7 +334,7 @@
         margin: 35px 10px 0px 10px;
         font-size: 12pt;
     }
-
+    
     #nav-btn-03 {
         display: flex;
         position: relative;
@@ -339,7 +343,7 @@
         margin: 35px 10px 0px 10px;
         font-size: 12pt;
     }
-
+    
     .tareas-1 {
         display: flex;
         /* background-color: red;
@@ -439,7 +443,6 @@
 
     .footer-01 {
         display: block;
-        position: relative;
         /* justify-content: flex-end;
         justify-self: flex-end; */
         background-color: #009458;
@@ -510,12 +513,13 @@
 
     .header-01 {
         display: flex;
-        position: relative;
         background-color: #009458;
         width: 100%;
         height: 100px;
         flex-direction: row;
         justify-content: space-around;
+        z-index: 8; /*esto lo coloco lily */
+        position: fixed;/*esto lo coloco lily */
     }
 
     .logo-home {
@@ -562,7 +566,7 @@
         margin: 35px 10px 0px 10px;
         font-size: 12pt;
     }
-
+    
     #nav-btn-02 {
         display: flex;
         position: relative;
@@ -687,7 +691,7 @@
 
     .footer-01 {
         display: flex;
-        position: relative;
+        position: relative;/*esto lo coloco lily */
         top: auto;
         bottom: 0px;
         background-color: #009458;
@@ -737,9 +741,21 @@
 }
 
 /* Responsive Desktop fin */
-
+#nav-btn-01:hover {
+    font-size: 20px;
+    /*esto lo coloco lily */
+}
+#nav-btn-02:hover {
+    font-size: 20px;
+    /*esto lo coloco lily */
+}
+#nav-btn-03:hover {
+    font-size: 20px;
+    /*esto lo coloco lily */
+}
 .nav-btn:hover {
     color: black;
+    
 }
 
 .acceso-1:hover {
