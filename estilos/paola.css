@@ -20,8 +20,6 @@
         height: 70px;
         flex-direction: row;
         justify-content: space-between;
-        z-index: 8;
-        position: fixed;
     }
     .logo-home{
         display: inline-block;
@@ -78,61 +76,110 @@
         position: relative;
         margin-top: 10%;
     }
-    #rectangle {
+    .rectangle {
         width: 125px;
-        height: 110px;
+        height: 120px;
         background: #69BF97;
-        margin-top: 5%;
+        margin-top: 15px;
         margin-left: 19%;
-        font-family: Dosis;
-        font-size: 13pt;
+        border: solid 2px #009458;
+        text-align: center;
+        border-radius: 0px 150px 100px 150px;
     }
     .niveles{
         display: flex;
         flex-direction: column;
         margin-left: 200px;
-        margin-top: -28%;
+        margin-top: -33%;
     }
-    #rectangle-1{
-        width: 110px;
+    .modulo-1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100px;
+        background-color: #69BF97;
+        border: solid 2px #009458;
+        border-radius: 5px;
         height: 30px;
-        background: #69BF97;
-        margin-top: 1%;
-        margin-left: 7.5%;
+        margin-left: 20px;
     }
-    #rectangle-2{
-        width: 112px;
-        height: 30px;
-        background: #69BF97;
-        margin-top: 5%;
-        margin-left: 7%;
-    }
-    #rectangle-3{
-        width: 112px;
-        height: 30px;
-        background: #69BF97;
-        margin-top: 5%;
-        margin-left: 7%;
+    .modulo-1:hover{
+        background-color: #009458;
+        border: solid 2px #69BF97;
     }
     .emojis{
         height: 70px;
         width: 70px;
         margin-top: -12px;
+        margin-left: 30px;
     }
     .emojis:hover{
-       margin: 200px;
+       width: 100px;
+       margin-top: -35px;
+    }
+    #decepcionado:hover{
+        background-color: rgb(248, 215, 153);
+        border:solid 2px orange;
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #enamorado:hover{
+        background-color: pink;
+        border:solid 2px rgb(244, 159, 173);
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #enojado:hover{
+        background-color: rgb(209, 87, 87);
+        border:solid 2px red;
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #feliz:hover{
+        background-color: rgb(34, 216, 34);
+        border:solid 2px rgb(4, 114, 4);
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #triste:hover{
+        background-color: rgb(79, 79, 245);
+        border:solid 2px rgb(34, 34, 152);
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #sorprendido:hover{
+        background-color: rgb(235, 235, 118);
+        border:solid 2px rgb(129, 129, 25);
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
     }
     
+    .modulo{
+        font-family: Dosis;
+        font-size: 13pt;
+        margin-right: 10px;
+    }
+    .modulo:hover{
+        font-size: 15pt;
+        margin-top: 5px;
+    }
     .nivel{
         margin-top: 3%;
         margin-left: 20%;
         font-family: Playfair;
         font-size: 14pt;
     }
-    .modulo{
-        text-align: center;
-    }
-
     .footer-01{
         display: block;
         position: relative;
