@@ -31,9 +31,9 @@ bash
 
 ## Despliegue 📦
 
-El despliege esta apto para ejecutarse
-https://manuel101284.github.io/fundacionsemillas/
-https://astounding-manatee-23828e.netlify.app/
+El despliegue en Git Hub Pages es: https://manuel101284.github.io/fundacionsemillas/
+
+El despliegue en Netlify es: https://astounding-manatee-23828e.netlify.app/
 
 ## Authors✒️
 
