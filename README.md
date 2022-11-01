@@ -33,6 +33,7 @@ bash
 
 El despliege esta apto para ejecutarse
 https://manuel101284.github.io/fundacionsemillas/
+https://astounding-manatee-23828e.netlify.app/
 
 ## Authors✒️
 
