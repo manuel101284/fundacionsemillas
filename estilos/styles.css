@@ -264,8 +264,6 @@
     }
     .header-01 {
         display: flex;
-        z-index: 8;/*esto lo coloco lily */
-        position: fixed;/*esto lo coloco lily */
         background-color: #009458;
         width: 100%;
         height: 90px;
