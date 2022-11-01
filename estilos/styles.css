@@ -657,15 +657,12 @@
     }   
     #ftr-01{
         display: flex;
-        position:relative;
-        margin-top: auto;
-        margin-bottom: 0px;
+        position: absolute;
         justify-self: end;
     }
     .footer-01{
         display: flex;
-        position: relative;
-        top: auto;
+        position: absolute;
         bottom: 0px;
         background-color: #009458;
         width: 100%;
