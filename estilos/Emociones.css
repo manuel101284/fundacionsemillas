@@ -7,6 +7,8 @@
 */
 
 
+/* Responsive destok */
+
 @media screen and (min-width: 1024px) and (max-width: 3840px) and (orientation: landscape) {
     body{
         background-color: #ffffff;
@@ -560,14 +562,7 @@
         margin: 5px 5px 5px -50px;
         font-size: 12pt;
     }
-    .contenido{
-        width: 70%;
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        margin: 50px auto;
-        justify-content: space-between;
-    }
+    
     .tareas-01,.emociones-01,.dashboard-01{
         text-align: center;
         padding: 10px
@@ -672,10 +667,1143 @@
         font-weight: 500;
     }
 } 
-/* Responsive Mobile fin */
 
-/* Responsive Tablet inicio */
-/* @media (max-width: 744px){
+/* Responsive tablet */
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+    body{
+        background-color: #ffffff;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        display: block;
+    }
+    h2{
+        display: block;
+        font-family: 'Dosis',sans-serif;
+        font-size: 25pt;
+        color: #000000;
+    }
+    .header-01{
+        display: flex;
+        background-color: #009458;
+        width: 100%;
+        height: 130px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo-home{
+        display: inline-block;
+        border: black solid 2px;
+        margin: 0px;
+    }
+    .fundasemillas{
+        display: inline-block;
+        border: black solid 2px;
+        margin: auto 0px;
+        font-family: 'Dosis', sans-serif;
+        justify-self: center;
+        color: #ffffff;
+        font-size: 50pt;
+        font-weight: 800;
+    }
+    .nav-btn{
+        font-size: 'Dosis', sans-serif;
+        font-weight: 600;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        justify-items: center;
+        align-self: center;
+        justify-self: center;
+        padding: 10px 15px;
+    }
+    #nav-btn-01{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 40px;
+        font-size: 14pt;
+    }
+    #nav-btn-02{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 40px;
+        font-size: 14pt;
+    }
+    #nav-btn-03{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 40px;
+        font-size: 14pt;
+    }
     
-} */
-/* Responsive Tablet fin */
+    
+    
+    
+    #emocions{
+        display: flex;
+        margin-left: 40px;
+        flex-direction: column;
+    }
+    .contenido1{
+        text-align: center;
+        display: block;
+        width: 80%;
+        display: flex;
+        margin: 200px auto 0 auto;
+        flex-direction: column;
+        
+    }
+    .contenido2{
+        text-align: center;
+        display: block;
+        width: 80%;
+        display: flex;
+        margin: auto auto 200px auto;
+        flex-direction: column;
+    }
+    .emoji1{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji2{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji3{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji4{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji5{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji6{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji1>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji2>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji3>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji4>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji5>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji6>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }    
+    .talkbubble1 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble1:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble2 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble2:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble3 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble3:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble4 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble4:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble5 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble5:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble6 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble6:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    
+    .bloque-emoji1{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+        
+    }
+    .bloque-emoji2{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+        
+    }
+    .bloque-emoji3{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+        
+    }
+    .bloque-emoji4{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+    }
+    .bloque-emoji5{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+    }
+    .bloque-emoji6{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+        
+    }
+    .img-emoji1{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    .img-emoji2{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    .img-emoji3{
+        
+        display:block;
+        height: 30%;
+        width: 30%;
+        
+    }
+    .img-emoji4{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    .img-emoji5{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    .img-emoji6{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    
+    .talkbubble1:hover{
+        background-color: rgb(34, 216, 34);
+    }
+    .talkbubble2:hover{
+        background-color: rgb(244, 159,173);
+    }
+    .talkbubble3:hover{
+        background-color: rgb(235, 235, 118);
+    }
+    .talkbubble4:hover{
+        background-color: rgb(79, 79, 245);
+    }
+    .talkbubble5:hover{
+        background-color: rgb(248, 215,153);
+    }
+    .talkbubble6:hover{
+        background-color: rgb(209, 87, 87);
+    }
+    
+    
+    
+    
+    
+    .acceso-1{
+        background-image: url('/img/hoja.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tareas-1{
+        display: flex;
+        /* background-color: red;
+        border: black solid 2px; */
+        margin: 5px;
+    }
+    .emociones-1{
+        display: flex;
+        /* background-color: blue;
+        border: black solid 2px; */
+        margin: 5px;
+    }
+    .dashboard-1{
+        display: flex;
+        /* background-color: yellow;
+        border: black solid 2px; */
+        margin: 5px;
+    }
+    
+    .footer-01{
+        display: flex;
+        background-color: #009458;
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .creators{
+        background-color: #69BF97;
+        width: 25%;
+        border-radius: 50px;
+        margin: 10px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .creators-text{
+        font-size: 14pt;
+        font-weight: 500;
+    }
+}
+
+/* Responsive */
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+    body{
+        background-color: #ffffff;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        display: flex;
+    }
+    h1{
+        font-family: 'Dosis',sans-serif;
+        font-size: 20pt;
+        color: #ffffff;
+    }
+    .header-01{
+        display: flex;
+        background-color: #009458;
+        width: 100%;
+        height: 70px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo-home{
+        display: flex;
+        border: black solid 2px;
+        margin: 0px;
+    }
+    .fundasemillas{
+        visibility: hidden;
+        display: inline-block;
+        border: black solid 2px;
+        margin: auto 0px;
+        font-family: 'Dosis', sans-serif;
+        justify-self: center;
+        color: #ffffff;
+        font-size: 50pt;
+        font-weight: 800;
+    }
+    .nav-btn{
+        font-size: 'Dosis', sans-serif;
+        font-weight: 500;
+        color: #ffffff;
+        margin: 0px;
+        padding: 5px 5px;
+    }
+    #nav-btn-01{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin: 5px 5px 5px -150px;
+        font-size: 12pt;
+    }
+    #nav-btn-02{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin: 5px 5px 5px -100px;
+        font-size: 12pt;
+    }
+    #nav-btn-03{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin: 5px 5px 5px -50px;
+        font-size: 12pt;
+    }
+    
+    .tareas-01,.emociones-01,.dashboard-01{
+        text-align: center;
+        padding: 10px
+        
+    }
+    .tareas-01{
+        display: flex;
+        width: 150px;
+        height: 100px;
+        padding: 0px 40px;
+        border-bottom-left-radius: 150px;
+        border-top-right-radius: 150px;
+        border-color: solid black 2px;
+        background: linear-gradient(to right, #009458, #00FF99);
+    }
+    .emociones-01{
+        display: flex;
+        width: 150px;
+        height: 100px;
+        padding: 0px 40px;
+        border-bottom-left-radius: 150px;
+        border-top-right-radius: 150px;
+        border-color: solid black 2px;
+        background: linear-gradient(to right, #009458, #00ffb2);
+    }
+    .dashboard-01{
+        display: flex;
+        width: 150px;
+        height: 100px;
+        padding: 0px 40px;
+        border-bottom-left-radius: 150px;
+        border-top-right-radius: 150px;
+        border-color: solid black 2px;
+        background: linear-gradient(to right, #009458, #aaee66);
+    }
+    .tareas-01>p{
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Playfair Display', serif;
+        margin-top: 0px;
+        font-size: 12pt;
+    }
+    .emociones-01>p{
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Playfair Display', serif;
+        margin-top: 0px;
+        font-size: 12pt;
+    }
+    .dashboard-01>p{
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Playfair Display', serif;
+        margin-top: 0px;
+        font-size: 12pt;
+    }    
+    
+    .acceso-1{
+        background-image: url('/img/las-hojas-de-un-arbol-4-removebg-preview.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tareas-1{
+        display: flex;
+        /* background-color: red;
+        border: black solid 2px; */
+        margin: 5px;
+    }
+    .emociones-1{
+        display: flex;
+        /* background-color: blue;
+        border: black solid 2px; */
+        margin: 5px;
+    }
+    .dashboard-1{
+        display: flex;
+        /* background-color: yellow;
+        border: black solid 2px; */
+        margin: 5px;
+    }
+    
+    .footer-01{
+        display: flex;
+        background-color: #009458;
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .creators{
+        background-color: #69BF97;
+        width: 25%;
+        border-radius: 50px;
+        margin: 10px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .creators-text{
+        font-size: 14pt;
+        font-weight: 500;
+    }
+} 
+
+/* Responsive tablet */
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+    body{
+        background-color: #ffffff;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        display: block;
+    }
+    h2{
+        display: block;
+        font-family: 'Dosis',sans-serif;
+        font-size: 25pt;
+        color: #000000;
+    }
+    .header-01{
+        display: flex;
+        background-color: #009458;
+        width: 100%;
+        height: 130px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo-home{
+        display: inline-block;
+        border: black solid 2px;
+        margin: 0px;
+    }
+    .fundasemillas{
+        display: inline-block;
+        border: black solid 2px;
+        margin: auto 0px;
+        font-family: 'Dosis', sans-serif;
+        justify-self: center;
+        color: #ffffff;
+        font-size: 50pt;
+        font-weight: 800;
+    }
+    .nav-btn{
+        font-size: 'Dosis', sans-serif;
+        font-weight: 600;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        justify-items: center;
+        align-self: center;
+        justify-self: center;
+        padding: 10px 15px;
+    }
+    #nav-btn-01{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 40px;
+        font-size: 14pt;
+    }
+    #nav-btn-02{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 40px;
+        font-size: 14pt;
+    }
+    #nav-btn-03{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 40px;
+        font-size: 14pt;
+    }
+    
+    
+    
+    
+    #emocions{
+        display: flex;
+        margin-left: 40px;
+        flex-direction: column;
+    }
+    .contenido1{
+        text-align: center;
+        display: block;
+        width: 80%;
+        display: flex;
+        margin: 200px auto 0 auto;
+        flex-direction: column;
+        
+    }
+    .contenido2{
+        text-align: center;
+        display: block;
+        width: 80%;
+        display: flex;
+        margin: auto auto 200px auto;
+        flex-direction: column;
+    }
+    .emoji1{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji2{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji3{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji4{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji5{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji6{
+        display: block;
+        width: 450px;
+        height: 100px;
+        padding: 0px 80px;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .emoji1>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji2>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji3>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji4>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji5>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }
+    .emoji6>p{
+        text-align: center;
+        color: #000000;
+        font-family: 'Playfair Display', serif;
+        margin-top: -60px;
+        font-size: 14pt;
+    }    
+    .talkbubble1 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble1:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble2 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble2:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble3 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble3:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble4 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble4:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble5 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble5:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble6 {
+        width: 450px;
+        height: 150px;
+        background: #B5DCCC;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    .talkbubble6:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #B5DCCC;
+        border-bottom: 13px solid transparent;
+        background: linear-gradient(to right, #B5DCCC);
+    }
+    
+    .bloque-emoji1{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+        
+    }
+    .bloque-emoji2{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+        
+    }
+    .bloque-emoji3{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+        
+    }
+    .bloque-emoji4{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+    }
+    .bloque-emoji5{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+    }
+    .bloque-emoji6{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        width: 85%;
+        display: flex;
+        
+    }
+    .img-emoji1{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    .img-emoji2{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    .img-emoji3{
+        
+        display:block;
+        height: 30%;
+        width: 30%;
+        
+    }
+    .img-emoji4{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    .img-emoji5{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    .img-emoji6{
+        display:block;
+        height: 30%;
+        width: 30%;
+    }
+    
+    .talkbubble1:hover{
+        background-color: rgb(34, 216, 34);
+    }
+    .talkbubble2:hover{
+        background-color: rgb(244, 159,173);
+    }
+    .talkbubble3:hover{
+        background-color: rgb(235, 235, 118);
+    }
+    .talkbubble4:hover{
+        background-color: rgb(79, 79, 245);
+    }
+    .talkbubble5:hover{
+        background-color: rgb(248, 215,153);
+    }
+    .talkbubble6:hover{
+        background-color: rgb(209, 87, 87);
+    }
+    
+    
+    
+    
+    
+    .acceso-1{
+        background-image: url('/img/hoja.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tareas-1{
+        display: flex;
+        /* background-color: red;
+        border: black solid 2px; */
+        margin: 5px;
+    }
+    .emociones-1{
+        display: flex;
+        /* background-color: blue;
+        border: black solid 2px; */
+        margin: 5px;
+    }
+    .dashboard-1{
+        display: flex;
+        /* background-color: yellow;
+        border: black solid 2px; */
+        margin: 5px;
+    }
+    
+    .footer-01{
+        display: flex;
+        background-color: #009458;
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .creators{
+        background-color: #69BF97;
+        width: 25%;
+        border-radius: 50px;
+        margin: 10px;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .creators-text{
+        font-size: 14pt;
+        font-weight: 500;
+    }
+}
