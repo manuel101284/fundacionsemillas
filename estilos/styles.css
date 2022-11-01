@@ -416,6 +416,7 @@
     }
     .footer-01 {
         display: block;
+        position: relative;
         /* justify-content: flex-end;
         justify-self: flex-end; */
         background-color: #009458;
@@ -656,13 +657,14 @@
     }   
     #ftr-01{
         display: flex;
+        position:relative;
         margin-top: auto;
         margin-bottom: 0px;
         justify-self: end;
     }
     .footer-01{
         display: flex;
-        position: absolute;
+        position: relative;
         top: auto;
         bottom: 0px;
         background-color: #009458;
