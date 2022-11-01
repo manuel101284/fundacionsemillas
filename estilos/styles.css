@@ -7,16 +7,16 @@
 
 /* Responsive Mobile inicio */
 @media screen and (max-width: 500px) and (orientation: portrait) {
-    body {
+    body{
         background-color: #ffffff;
         margin: 0px;
         padding: 0px;
     }
-    .container {
+    .container{
         display: flex;
         flex-direction: column;
     }
-    h1 {
+    h1{
         font-family: 'Dosis', sans-serif;
         font-size: 16pt;
         color: #ffffff;
@@ -49,22 +49,22 @@
         font-weight: 800;
     }
     .acceso-1 {
-        display: flexbox;
+        display: flex;
         background-image: url('/img/hoja.svg');
         background-repeat: no-repeat;
         background-size: contain;
     }
     a>.nav-btn {
-        display: flex;
+        display: block;
         margin: 0px;
         font-family: 'Dosis', sans-serif;
         font-weight: 400;
         color: #ffffff;
         text-align: center;
-        padding: 35px auto 5px auto;
+        padding: 25px auto 5px auto;
     }
     #nav-btn-01 {
-        display: flex;
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
@@ -72,7 +72,7 @@
         font-size: 9pt;
     }
     #nav-btn-02 {
-        display: flex;
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
@@ -80,7 +80,7 @@
         font-size: 9pt;
     }
     #nav-btn-03 {
-        display: flex;
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
@@ -290,13 +290,13 @@
         margin: auto 5px;
     }
     .acceso-1 {
-        display: flexbox;
+        display: block;
         background-image: url('/img/hoja.svg');
         background-repeat: no-repeat;
         background-size: contain;
     }
     a>.nav-btn {
-        display: flex;
+        display: block;
         margin: 0px;
         font-family: 'Dosis', sans-serif;
         font-weight: 400;
@@ -305,7 +305,7 @@
         padding: 45px auto 5px auto;
     }
     #nav-btn-01 {
-        display: flex;
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
@@ -313,7 +313,7 @@
         font-size: 12pt;
     }
     #nav-btn-02 {
-        display: flex;
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
@@ -321,7 +321,7 @@
         font-size: 12pt;
     }
     #nav-btn-03 {
-        display: flex;
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
@@ -536,7 +536,7 @@
         background-size: contain;
     }
     a>.nav-btn {
-        display: flex;
+        display: block;
         margin: 0px;
         font-family: 'Dosis', sans-serif;
         font-weight: 400;
@@ -545,28 +545,28 @@
         padding: 65px auto 5px auto;
     }
     #nav-btn-01 {
-        display: flex;
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 35px 10px 0px 10px;
-        font-size: 12pt;
+        font-size: 14pt;
     }
     #nav-btn-02 {
-        display: flex;
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 35px 10px 0px 10px;
-        font-size: 12pt;
+        font-size: 14pt;
     }
     #nav-btn-03 {
-        display: flex;
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 35px 10px 0px 10px;
-        font-size: 12pt;
+        font-size: 14pt;
     }
     .tareas-1 {
         display: flex;
@@ -718,8 +718,8 @@
 }
 .tareas-01:hover,.emociones-01:hover,.dashboard-01:hover{
     background: linear-gradient(yellow, #69BF97);
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center;
+    align-content: center; */
     padding: -30px -30px -30px -30px;
     border: solid blue 2px;
     top: 5px;
