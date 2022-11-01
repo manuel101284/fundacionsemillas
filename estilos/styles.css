@@ -6,7 +6,7 @@
 */
 
 /* Responsive Mobile inicio */
-@media screen and (max-width: 500px)  and (orientation: portrait){
+@media screen and (max-width: 500px) and (orientation: portrait) {
     body{
         background-color: #ffffff;
         margin: 0px;
@@ -17,25 +17,26 @@
         flex-direction: column;
     }
     h1{
-        font-family: 'Dosis',sans-serif;
+        font-family: 'Dosis', sans-serif;
         font-size: 16pt;
         color: #ffffff;
     }
-    .header-01{
+    .header-01 {
         display: flex;
-        position: relative;
         background-color: #009458;
         width: 100%;
         height: 70px;
         flex-direction: row;
         justify-content: flex-start;
     }
-    .logo-home{
+
+    .logo-home {
         display: flex;
         /* border: black solid 2px; */
         margin: 0px;
+        
     }
-    .fundasemillas{
+    .fundasemillas {
         visibility: hidden;
         display: inline-block;
         position: relative;
@@ -47,64 +48,64 @@
         font-size: 10pt;
         font-weight: 800;
     }
-    .acceso-1{
-        display: flexbox;
+    .acceso-1 {
+        display: flex;
         background-image: url('/img/hoja.svg');
         background-repeat: no-repeat;
         background-size: contain;
     }
-    a>.nav-btn{
-        display: flex;
+    a>.nav-btn {
+        display: block;
         margin: 0px;
         font-family: 'Dosis', sans-serif;
         font-weight: 400;
         color: #ffffff;
         text-align: center;
-        padding: 35px auto 5px auto;
+        padding: 25px auto 5px auto;
     }
-    #nav-btn-01{
-        display: flex;
+    #nav-btn-01 {
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 25px 10px 0px 10px;      
         font-size: 9pt;
     }
-    #nav-btn-02{
-        display: flex;
+    #nav-btn-02 {
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 25px 10px 0px 10px;
         font-size: 9pt;
     }
-    #nav-btn-03{
-        display: flex;
+    #nav-btn-03 {
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 25px 10px 0px 10px;
         font-size: 9pt;
     }
-    .tareas-1{
+    .tareas-1 {
         display: flex;
         /* background-color: red;
         border: black solid 2px; */
         margin: 0px;
     }
-    .emociones-1{
+    .emociones-1 {
         display: flex;
         /* background-color: blue;
         border: black solid 2px; */
         margin: 0px;
     }
-    .dashboard-1{
+    .dashboard-1 {
         display: flex;
         /* background-color: yellow;
         border: black solid 2px; */
         margin: 0px;
     }
-    .contenido{
+    .contenido {
         width: 100%;
         display: flex;
         position: relative;
@@ -112,12 +113,13 @@
         margin: 100px auto 100px auto;
         justify-content: space-between;
     }
-    .tareas-01,.emociones-01,.dashboard-01{
+    .tareas-01,
+    .emociones-01,
+    .dashboard-01 {
         text-align: center;
         padding: 2px
-        
     }
-    .tareas-01{
+    .tareas-01 {
         display: block;
         width: 300px;
         height: 150px;
@@ -128,7 +130,7 @@
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #00FF99);
     }
-    .emociones-01{
+    .emociones-01 {
         display: block;
         width: 300px;
         height: 150px;
@@ -139,7 +141,7 @@
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #00ffb2);
     }
-    .dashboard-01{
+    .dashboard-01 {
         display: block;
         width: 300px;
         height: 150px;
@@ -150,29 +152,28 @@
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #aaee66);
     }
-    .tareas-01>p{
+    .tareas-01>p {
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
         margin: -10px 20px;
         font-size: 9pt;
     }
-    .emociones-01>p{
+    .emociones-01>p {
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
         margin: -10px 20px;
         font-size: 9pt;
     }
-    .dashboard-01>p{
+    .dashboard-01>p {
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
         margin: -10px 20px;
         font-size: 9pt;
-    }    
-        
-    .footer-01{
+    }
+    .footer-01 {
         display: block;
         position: relative;
         /* justify-content: flex-end;
@@ -185,7 +186,7 @@
         margin: 10px auto 10px auto;
         padding: 5px auto;
     }
-    .social{
+    .social {
         display: flex;
         flex-direction: row;
         position: relative;
@@ -198,7 +199,7 @@
         margin: 10px auto;
         padding: 0px 10px;
     }
-    .creators{
+    .creators {
         display: flex;
         flex-direction: row;
         position: relative;
@@ -211,7 +212,7 @@
         margin: 10px auto;
         padding: 0px 25px;
     }
-    .creators-text{
+    .creators-text {
         font-family: 'Playfair Display', serif;
         font-size: 10pt;
         font-weight: 300;
@@ -223,7 +224,6 @@
         background: linear-gradient(#009458, lightblue);
         font-size: large;
     }
-    
     .tareas-01:hover,.emociones-01:hover,.dashboard-01:hover{
         background: linear-gradient(yellow, #69BF97);
         justify-content: center;
@@ -253,30 +253,30 @@
         margin: 0px;
         padding: 0px;
     }
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
     }
-    h1{
-        font-family: 'Dosis',sans-serif;
+    h1 {
+        font-family: 'Dosis', sans-serif;
         font-size: 30pt;
         color: #ffffff;
     }
-    .header-01{
+    .header-01 {
         display: flex;
-        position: relative;
         background-color: #009458;
         width: 100%;
         height: 90px;
         flex-direction: row;
         justify-content: flex-start;
+        
     }
-    .logo-home{
+    .logo-home {
         display: flex;
         /* border: black solid 2px; */
         margin: 0px;
     }
-    .fundasemillas{
+    .fundasemillas {
         visibility: visible;
         display: inline-block;
         position: relative;
@@ -289,14 +289,14 @@
         font-weight: 800;
         margin: auto 5px;
     }
-    .acceso-1{
-        display: flexbox;
+    .acceso-1 {
+        display: block;
         background-image: url('/img/hoja.svg');
         background-repeat: no-repeat;
         background-size: contain;
     }
-    a>.nav-btn{
-        display: flex;
+    a>.nav-btn {
+        display: block;
         margin: 0px;
         font-family: 'Dosis', sans-serif;
         font-weight: 400;
@@ -304,49 +304,49 @@
         text-align: center;
         padding: 45px auto 5px auto;
     }
-    #nav-btn-01{
-        display: flex;
+    #nav-btn-01 {
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 35px 10px 0px 10px;
         font-size: 12pt;
     }
-    #nav-btn-02{
-        display: flex;
+    #nav-btn-02 {
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 35px 10px 0px 10px;
         font-size: 12pt;
     }
-    #nav-btn-03{
-        display: flex;
+    #nav-btn-03 {
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 35px 10px 0px 10px;
         font-size: 12pt;
     }
-    .tareas-1{
+    .tareas-1 {
         display: flex;
         /* background-color: red;
         border: black solid 2px; */
         margin: 0px;
     }
-    .emociones-1{
+    .emociones-1 {
         display: flex;
         /* background-color: blue;
         border: black solid 2px; */
         margin: 0px;
     }
-    .dashboard-1{
+    .dashboard-1 {
         display: flex;
         /* background-color: yellow;
         border: black solid 2px; */
         margin: 0px;
     }
-    .contenido{
+    .contenido {
         width: 100%;
         display: flex;
         position: relative;
@@ -354,12 +354,13 @@
         margin: 150px auto 150px auto;
         justify-content: space-between;
     }
-    .tareas-01,.emociones-01,.dashboard-01{
+    .tareas-01,
+    .emociones-01,
+    .dashboard-01 {
         text-align: center;
         padding: 2px
-        
     }
-    .tareas-01{
+    .tareas-01 {
         display: block;
         width: 400px;
         height: 200px;
@@ -370,7 +371,7 @@
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #00FF99);
     }
-    .emociones-01{
+    .emociones-01 {
         display: block;
         width: 400px;
         height: 200px;
@@ -381,7 +382,7 @@
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #00ffb2);
     }
-    .dashboard-01{
+    .dashboard-01 {
         display: block;
         width: 400px;
         height: 200px;
@@ -392,31 +393,29 @@
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #aaee66);
     }
-    .tareas-01>p{
+    .tareas-01>p {
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
         margin: -40px 40px;
         font-size: 12pt;
     }
-    .emociones-01>p{
+    .emociones-01>p {
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
         margin: -40px 40px;
         font-size: 12pt;
     }
-    .dashboard-01>p{
+    .dashboard-01>p {
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
         margin: -40px 40px;
         font-size: 12pt;
-    }    
-        
-    .footer-01{
+    }
+    .footer-01 {
         display: block;
-        position: relative;
         /* justify-content: flex-end;
         justify-self: flex-end; */
         background-color: #009458;
@@ -427,7 +426,7 @@
         margin: 12px auto 12px auto;
         padding: 0px auto;
     }
-    .social{
+    .social {
         display: flex;
         flex-direction: row;
         position: relative;
@@ -440,7 +439,7 @@
         margin: 10px auto;
         padding: 0px 10px;
     }
-    .creators{
+    .creators {
         display: flex;
         flex-direction: row;
         position: relative;
@@ -453,7 +452,7 @@
         margin: 10px auto;
         padding: 0px 25px;
     }
-    .creators-text{
+    .creators-text {
         font-family: 'Playfair Display', serif;
         font-size: 14pt;
         font-weight: 300;
@@ -465,7 +464,6 @@
         background: linear-gradient(#009458, lightblue);
         font-size: large;
     }
-    
     .tareas-01:hover,.emociones-01:hover,.dashboard-01:hover{
         background: linear-gradient(yellow, #69BF97);
         justify-content: center;
@@ -489,7 +487,7 @@
 /* Responsive Tablet fin */
 
 /* Responsive Desktop inicio */
-@media  screen and (min-width: 1024px) and (max-width: 3840px) and (orientation: landscape){
+@media screen and (min-width: 1024px) and (max-width: 3840px) and (orientation: landscape){
     body{
         background-color: #ffffff;
         margin: 0px;
@@ -500,12 +498,12 @@
         flex-direction: column;
     }
     h1{
-        font-family: 'Dosis',sans-serif;
+        font-family: 'Dosis', sans-serif;
         font-size: 50pt;
         color: #ffffff;
         margin-top: 30px;
     }
-    .header-01{
+    .header-01 {
         display: flex;
         position: relative;
         background-color: #009458;
@@ -531,14 +529,14 @@
         font-weight: 800;
         margin: auto 80px;
     }
-    .acceso-1{
+    .acceso-1 {
         display: flexbox;
         background-image: url('/img/hoja.svg');
         background-repeat: no-repeat;
         background-size: contain;
     }
-    a>.nav-btn{
-        display: flex;
+    a>.nav-btn {
+        display: block;
         margin: 0px;
         font-family: 'Dosis', sans-serif;
         font-weight: 400;
@@ -546,49 +544,49 @@
         text-align: center;
         padding: 65px auto 5px auto;
     }
-    #nav-btn-01{
-        display: flex;
+    #nav-btn-01 {
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 35px 10px 0px 10px;
-        font-size: 12pt;
+        font-size: 14pt;
     }
-    #nav-btn-02{
-        display: flex;
+    #nav-btn-02 {
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 35px 10px 0px 10px;
-        font-size: 12pt;
+        font-size: 14pt;
     }
-    #nav-btn-03{
-        display: flex;
+    #nav-btn-03 {
+        display: block;
         position: relative;
         text-align: center;
         align-self: center;
         margin: 35px 10px 0px 10px;
-        font-size: 12pt;
+        font-size: 14pt;
     }
-    .tareas-1{
+    .tareas-1 {
         display: flex;
         /* background-color: red;
         border: black solid 2px; */
         margin: 0px;
     }
-    .emociones-1{
+    .emociones-1 {
         display: flex;
         /* background-color: blue;
         border: black solid 2px; */
         margin: 0px;
     }
-    .dashboard-1{
+    .dashboard-1 {
         display: flex;
         /* background-color: yellow;
         border: black solid 2px; */
         margin: 0px;
     }
-    .contenido{
+    .contenido {
         width: 100%;
         display: flex;
         position: relative;
@@ -596,12 +594,13 @@
         margin: 150px auto 150px auto;
         justify-content: space-between;
     }
-    .tareas-01,.emociones-01,.dashboard-01{
+    .tareas-01,
+    .emociones-01,
+    .dashboard-01 {
         text-align: center;
         padding: 2px
-        
     }
-    .tareas-01{
+    .tareas-01 {
         display: block;
         width: 500px;
         height: 250px;
@@ -612,7 +611,7 @@
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #00FF99);
     }
-    .emociones-01{
+    .emociones-01 {
         display: block;
         width: 500px;
         height: 250px;
@@ -623,7 +622,7 @@
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #00ffb2);
     }
-    .dashboard-01{
+    .dashboard-01 {
         display: block;
         width: 500px;
         height: 250px;
@@ -634,27 +633,27 @@
         border-color: solid black 2px;
         background: linear-gradient(to right, #009458, #aaee66);
     }
-    .tareas-01>p{
+    .tareas-01>p {
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
         margin: -70px 60px;
         font-size: 14pt;
     }
-    .emociones-01>p{
+    .emociones-01>p {
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
         margin: -70px 60px;
         font-size: 14pt;
     }
-    .dashboard-01>p{
+    .dashboard-01>p {
         text-align: center;
         color: #ffffff;
         font-family: 'Playfair Display', serif;
         margin: -70px 60px;
         font-size: 14pt;
-    }    
+    }   
     #ftr-01{
         display: flex;
         margin-top: auto;
@@ -673,13 +672,13 @@
         justify-content: end;
         padding: 0px;
     }
-    .social{
+    .social {
         display: flex;
         flex-direction: row;
         position: relative;
         background-color: #009458;
         height: 90px;
-        /* justify-self: flex-start; */
+        /* justify-self: flex-start; */ 
         justify-content: space-between;
         background-color: #69BF97;
         width: 15%;
@@ -687,7 +686,7 @@
         margin: 10px auto;
         padding: 0px 15px;
     }
-    .creators{
+    .creators {
         display: flex;
         flex-direction: row;
         position: relative;
@@ -701,11 +700,11 @@
         margin: 10px auto;
         padding: 0px 35px;
     }
-    .creators-text{
+    .creators-text {
         font-family: 'Playfair Display', serif;
         font-size: 14pt;
         font-weight: 500;
-    }
+    } 
 }
 /* Responsive Desktop fin */
 
@@ -717,11 +716,10 @@
     background: linear-gradient(#009458, lightblue);
     font-size: large;
 }
-
 .tareas-01:hover,.emociones-01:hover,.dashboard-01:hover{
     background: linear-gradient(yellow, #69BF97);
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center;
+    align-content: center; */
     padding: -30px -30px -30px -30px;
     border: solid blue 2px;
     top: 5px;
