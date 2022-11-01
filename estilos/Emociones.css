@@ -15,6 +15,7 @@ body{
     display: block;
 }
 h2{
+    display: block;
     font-family: 'Dosis',sans-serif;
     font-size: 25pt;
     color: #000000;
@@ -78,19 +79,30 @@ h2{
 
 
 
-
-.contenido{
+#emocions{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    margin-left: 40px;
+}
+.contenido1{
     text-align: center;
     display: block;
-    width: 100%;
+    width: 80%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin: 200px auto;
+    flex-direction: column;
+}
+.contenido2{
+    text-align: center;
+    display: block;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
     margin: 200px auto;
     justify-content: space-between;
-}
-.emoji1,.emoji2,.emoji3,.emoji4,.emoji5,.emoji6{
-    text-align: center;
-    padding: 20px
+    flex-direction: column;
 }
 .emoji1{
     display: block;
@@ -194,7 +206,7 @@ h2{
     margin-top: -60px;
     font-size: 14pt;
 }    
-.talkbubble {
+.talkbubble1 {
     width: 450px;
     height: 150px;
     background: #B5DCCC;
@@ -204,7 +216,7 @@ h2{
     border-radius: 10px;
     background: linear-gradient(to right, #B5DCCC);
 }
-.talkbubble:before {
+.talkbubble1:before {
     content: "";
     position: absolute;
     right: 100%;
@@ -216,8 +228,211 @@ h2{
     border-bottom: 13px solid transparent;
     background: linear-gradient(to right, #B5DCCC);
 }
-.bloque-emoji1
+.talkbubble2 {
+    width: 450px;
+    height: 150px;
+    background: #B5DCCC;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #B5DCCC);
+}
+.talkbubble2:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #B5DCCC;
+    border-bottom: 13px solid transparent;
+    background: linear-gradient(to right, #B5DCCC);
+}
+.talkbubble3 {
+    width: 450px;
+    height: 150px;
+    background: #B5DCCC;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #B5DCCC);
+}
+.talkbubble3:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #B5DCCC;
+    border-bottom: 13px solid transparent;
+    background: linear-gradient(to right, #B5DCCC);
+}
+.talkbubble4 {
+    width: 450px;
+    height: 150px;
+    background: #B5DCCC;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #B5DCCC);
+}
+.talkbubble4:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #B5DCCC;
+    border-bottom: 13px solid transparent;
+    background: linear-gradient(to right, #B5DCCC);
+}
+.talkbubble5 {
+    width: 450px;
+    height: 150px;
+    background: #B5DCCC;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #B5DCCC);
+}
+.talkbubble5:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #B5DCCC;
+    border-bottom: 13px solid transparent;
+    background: linear-gradient(to right, #B5DCCC);
+}
+.talkbubble6 {
+    width: 450px;
+    height: 150px;
+    background: #B5DCCC;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #B5DCCC);
+}
+.talkbubble6:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #B5DCCC;
+    border-bottom: 13px solid transparent;
+    background: linear-gradient(to right, #B5DCCC);
+}
 
+.bloque-emoji1{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 90%;
+    display: flex;
+    
+}
+.bloque-emoji2{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 90%;
+    display: flex;
+    
+}
+.bloque-emoji3{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 90%;
+    display: flex;
+    
+}
+.bloque-emoji4{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 90%;
+    display: flex;
+}
+.bloque-emoji5{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 90%;
+    display: flex;
+}
+.bloque-emoji6{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    width: 90%;
+    display: flex;
+}
+.img-emoji1{
+    display:block;
+    height: 15%;
+    width: 15%;
+}
+.img-emoji2{
+    display:block;
+    height: 15%;
+    width: 15%;
+}
+.img-emoji3{
+    display:block;
+    height: 15%;
+    width: 15%;
+}
+.img-emoji4{
+    display:block;
+    height: 15%;
+    width: 15%;
+}
+.img-emoji5{
+    display:block;
+    height: 15%;
+    width: 15%;
+}
+.img-emoji6{
+    display:block;
+    height: 15%;
+    width: 15%;
+}
+
+.talkbubble1:hover{
+    background-color: #ADFF90;
+}
+.talkbubble2:hover{
+    background-color: #F48DF6;
+}
+.talkbubble3:hover{
+    background-color: #FFFCB6;
+}
+.talkbubble4:hover{
+    background-color: #8699FF;
+}
+.talkbubble5:hover{
+    background-color: #FFAC60;
+}
+.talkbubble6:hover{
+    background-color: #FF6A6A;
+}
 
 
 
