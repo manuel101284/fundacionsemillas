@@ -27,14 +27,13 @@
         margin-left: 10%;
     }
     .fundasemillas{
-        visibility: hidden;
         display: inline-block;
         margin: auto 0px;
         font-family: 'Dosis', sans-serif;
         justify-self: center;
         color: #ffffff;
         font-size: 10pt;
-        font-weight: 800;
+        font-weight: 600;
     }
     .nav-btn{
         font-size: 'Dosis', sans-serif;
@@ -75,6 +74,7 @@
         margin-left: 50px;
         position: relative;
         margin-top: 10%;
+        border-radius: 50px 10px 50px 10px;
     }
     .rectangle {
         width: 125px;
@@ -103,7 +103,7 @@
         margin-left: 20px;
     }
     .modulo-1:hover{
-        background-color: #009458;
+        background: #009458;
         border: solid 2px #69BF97;
     }
     .emojis{
@@ -116,16 +116,31 @@
        width: 100px;
        margin-top: -35px;
     }
-    #decepcionado:hover{
+    #decepcionado{
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+        animation: color-decep 3s;
+    }
+    @keyframes color-decep {
+        0%{
+            background-color:#009458;
+        }
+        100%{
+            background-color: coral; 
+        }
+    }
+    /*#decepcionado:hover{
         background-color: rgb(248, 215, 153);
         border:solid 2px orange;
         width: 125px;
         height: 120px;
         margin-top: 30px;
         margin-left: 19%;
-    }
+    }*/
     #enamorado:hover{
-        background-color: pink;
+        background: pink;
         border:solid 2px rgb(244, 159, 173);
         width: 125px;
         height: 120px;
@@ -218,9 +233,9 @@
         background-color: #69BF97;
         width: 60%;
         border-radius: 25px;
-        margin: 10px auto;
+        margin: 60px auto;
         padding: 0px 25px;
-        top: -40px;
+        
     }
     .creators-text{
         font-family: 'Playfair Display', serif;
@@ -239,6 +254,7 @@
     }
     .container{
         display: block;
+
     }
     h1{
         font-family: 'Dosis',sans-serif;
@@ -252,7 +268,6 @@
         height: 70px;
         flex-direction: row;
         justify-content: space-between;
-        position: static;
     }
     .logo-home{
         display: inline-block;
@@ -302,61 +317,117 @@
         margin-left: -190px;
     }
     .inicio{
-        width: 300px;
-        height: 40px;
+        width: 570px;
+        height: 60px;
         background: #69BF97;
-        margin-left: 50px;
+        margin-left: 90px;
         position: relative;
-        margin-top: 10%;
+        margin-top: 9%;
+        border-radius: 50px 10px 50px 10px;
     }
-    .container-2{
-        margin-top: 30%;
-        margin-left: 10%;
-    }
-    #rectangle {
-        width: 125px;
-        height: 110px;
+    .rectangle {
+        width: 200px;
+        height: 200px;
         background: #69BF97;
-        margin-top: -25%;
-        margin-left: 8%;
-        font-family: Dosis;
-        font-size: 13pt;
+        margin-top: -40px;
+        margin-left: 15%;
+        border: solid 2px #009458;
+        text-align: center;
+        border-radius: 0px 150px 100px 150px;
     }
     .niveles{
         display: flex;
         flex-direction: column;
-        margin-left: 150px;
-        margin-top: -32%;
+        margin-left: 310px;
+        margin-top: -15%;
     }
-    #rectangle-1{
-        width: 110px;
-        height: 30px;
-        background: #69BF97;
-        margin-top: 1%;
-        margin-left: 7.5%;
+    .modulo-1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 300px;
+        background-color: #69BF97;
+        border: solid 2px #009458;
+        border-radius: 20px;
+        height: 50px;
+        margin-left: 20px;
     }
-    #rectangle-2{
-        width: 112px;
-        height: 30px;
-        background: #69BF97;
-        margin-top: 5%;
-        margin-left: 7%;
+    .modulo-1:hover{
+        background-color: #009458;
+        border: solid 2px #69BF97;
     }
-    #rectangle-3{
-        width: 112px;
-        height: 30px;
-        background: #69BF97;
-        margin-top: 5%;
-        margin-left: 7%;
+    .emojis{
+        height: 100px;
+        width: 100px;
+        margin-top: -12px;
+        margin-left: 30px;
+    }
+    .emojis:hover{
+       width: 200px;
+       margin-top: -35px;
+    }
+    #decepcionado:hover{
+        background-color: rgb(248, 215, 153);
+        border:solid 2px orange;
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #enamorado:hover{
+        background-color: pink;
+        border:solid 2px rgb(244, 159, 173);
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #enojado:hover{
+        background-color: rgb(209, 87, 87);
+        border:solid 2px red;
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #feliz:hover{
+        background-color: rgb(34, 216, 34);
+        border:solid 2px rgb(4, 114, 4);
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #triste:hover{
+        background-color: rgb(79, 79, 245);
+        border:solid 2px rgb(34, 34, 152);
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    #sorprendido:hover{
+        background-color: rgb(235, 235, 118);
+        border:solid 2px rgb(129, 129, 25);
+        width: 125px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+    
+    .modulo{
+        font-family: Dosis;
+        font-size: 20pt;
+        margin-right: 10px;
+    }
+    .modulo:hover{
+        font-size: 15pt;
+        margin-top: 5px;
     }
     .nivel{
         margin-top: 3%;
-        margin-left: 20%;
+        margin-left: 40%;
         font-family: Playfair;
-        font-size: 14pt;
-    }
-    .modulo{
-        text-align: center;
+        font-size: 18pt;
     }
     .footer-01{
         display: block;
@@ -365,10 +436,10 @@
         justify-self: flex-end; */
         background-color: #009458;
         width: 100%;
-        height: 140px;
+        height: 160px;
         flex-direction: row;
         justify-content: center;
-        margin: 10px auto 10px auto;
+        margin: 20px auto 20px auto;
         padding: 5px auto;
     }
     .social{
@@ -396,9 +467,8 @@
         background-color: #69BF97;
         width: 60%;
         border-radius: 25px;
-        margin: 10px auto;
+        margin: 60px;
         padding: 0px 25px;
-        top: -40px;
     }
     .creators-text{
         font-family: 'Playfair Display', serif;
