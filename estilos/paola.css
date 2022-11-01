@@ -339,7 +339,7 @@
         display: flex;
         flex-direction: column;
         margin-left: 310px;
-        margin-top: -15%;
+        margin-top: -130px;
     }
     .modulo-1{
         margin-top: 5px;
@@ -365,11 +365,18 @@
        width: 200px;
        margin-top: -35px;
     }
+    #decepcionado{
+        width: 200px;
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 15%;
+        animation: color-decep 3s;
+    }
     #decepcionado:hover{
         background-color: rgb(248, 215, 153);
         border:solid 2px orange;
-        width: 125px;
-        height: 120px;
+        width: 200px;
+        height: 200px;
         margin-top: 30px;
         margin-left: 19%;
     }
