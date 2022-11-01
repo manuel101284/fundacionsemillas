@@ -28,8 +28,6 @@
 
     .header-01 {
         display: flex;
-        z-index: 8;/*esto lo coloco lily */
-        position: fixed;/*esto lo coloco lily */
         background-color: #009458;
         width: 100%;
         height: 70px;
@@ -691,7 +689,7 @@
 
     .footer-01 {
         display: flex;
-        position: relative;/*esto lo coloco lily */
+        position: absolute;/*esto lo coloco lily */
         top: auto;
         bottom: 0px;
         background-color: #009458;
