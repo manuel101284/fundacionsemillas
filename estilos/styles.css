@@ -711,6 +711,7 @@
 
 .nav-btn:hover{
     color: black;
+    font-weight: 600;
 }
 .acceso-1:hover{
     background: linear-gradient(#009458, lightblue);
@@ -731,6 +732,7 @@
 .acceso-1>a{
     text-decoration: none;
     outline: none;
+    font-weight: 600;
 }
 .tareas-01>a,.emociones-01>a,.dashboard-01>a{
     text-decoration: none;
