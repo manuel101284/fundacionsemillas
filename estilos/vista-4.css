@@ -1,12 +1,12 @@
-/*  */
+/* Responsive mobile inicio */
 @media screen and (max-width: 500px) and (orientation: portrait) {
     .grafica1{
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         /* position: absolute; */
-        margin-left: 15px;
-        
+        padding-left: 15px;
+        margin: auto;
     } 
     .titulov4{
         font-family: 'Dosis', sans-serif;
@@ -112,48 +112,7 @@
         height: 60%;
         }
     }
-    .hojitamover{
-        display: flex;
-        position: absolute;
-        z-index: 3;
-        
-    }
-    .hojita {
-        display: flex;
-        /* flex-direction: column-reverse; */
-        border-radius: 100px 150px 100px 0PX;
-        border-color: solid #69BF97 2px;
-        position: relative;
-        height: 30px;
-        width: 35px;
-        /* bottom: 450px; */
-        left: 97px;
-        margin-right: 12px;
-    
-    }
-    /* .hojita div{
-        position: relative;
-        width: px;
-        height: 8px;
-        
-    } */
-    #hojitafeliz{
-        animation: hoja-feliz 3s forwards;
-    }
-    @keyframes hoja-feliz {
-        from{
-            background-color: #7b9400;
-            transform: traslateY(0);
-        }
-
-        to{
-            background-color: #009458;
-            transform: traslateY(100);
-            height: 100%;
-        }
-    
-    }
-    /* grafica linea de tiempo */
+     /* grafica linea de tiempo */
 
     .graficatiempo{
         display: flex;
@@ -180,9 +139,11 @@
         display: flex;
         flex-direction: row;
         width: 20px; 
-        margin-top: 50px;
-        margin-bottom: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         width: 50%;
+        margin: auto;
+        margin-left: 5px;
     }
     .titulov4-1 {
         font-family: 'Dosis', sans-serif;
@@ -290,17 +251,16 @@
         margin-top: -100px;
     }
 }
+/* Repsonsive mobile fin */
+
 /* Responsive tablet inicio */
 @media screen and (min-width: 600px) and (max-width: 800px) {
     .grafica1 {
             display: flex;
             justify-content: space-around;
             flex-direction: column;
-            /* position: absolute; */
-            margin-left: 20px;
-
-    }
-
+            
+            }
     .titulov4 {
         font-family: 'Dosis', sans-serif;
         font-size: 30pt;
@@ -309,31 +269,32 @@
         align-content: center;
         justify-content: center;
         width: 600px;
-        margin-left: 4px;
+        margin-left: 10px;
         margin-bottom: 40px;
         margin-top: 150px;
     }
-
+    .huerta-grafica-barras{
+        margin-right: 10px;
+        margin-left: 30px;
+    }
     .grafica-barras {
         display: flex;
         justify-content: center;
         flex-direction: column;
         width: 600%;
     }
-
     #huerta-fondo {
         width: 600px;
         z-index: 1;
         Clip-path: inset(1px);
+        
     }
-
     .califica {
         display: flex;
         position: absolute;
         z-index: 2;
         /* justify-items: space-between; */
     }
-    
     .menu {
         display: flex;
         flex-direction: column-reverse;
@@ -346,7 +307,6 @@
         /* border: solid #69BF97; */
         margin-right: 63px;
     }
-
     .menu div {
         position: relative;
         width: 8px;
@@ -355,70 +315,55 @@
         background-color: #009458;
         z-index: 1;
     }
-
     #menufeliz {
         animation: feliz-barra 2s forwards;
     }
-
     @keyframes feliz-barra {
         100% {
             height: 100%;
         }
     }
-
     #menuenamorado {
         animation: enamorado-barra 2s forwards;
     }
-
     @keyframes enamorado-barra {
         100% {
             height: 50%;
         }
     }
-
     #menuasombrado {
         animation: asombrado-barra 2s forwards;
-
     }
-
     @keyframes asombrado-barra {
         100% {
             height: 25%;
         }
     }
-
     #menutriste {
         animation: triste-barra 2s forwards;
     }
-
     @keyframes triste-barra {
         100% {
             height: 80%;
         }
     }
-
     #menudecepcionado {
         animation: decepcionado-barra 2s forwards;
     }
-
     @keyframes decepcionado-barra {
         100% {
             height: 15%;
         }
     }
-
     #menuenojado {
         animation: enojado-barra 2s forwards;
     }
-
     @keyframes enojado-barra {
         100% {
             height: 60%;
         }
     }
-
     /* grafica linea de tiempo */
-
     .graficatiempo {
         display: flex;
         flex-direction: column;
@@ -426,9 +371,7 @@
         margin-bottom: 50px;
         margin-left: 15px;
         margin-right: 10px;
-
     }
-
     .titulov42 {
         font-family: 'Dosis', sans-serif;
         font-size: 30pt;
@@ -439,9 +382,7 @@
         width: 600px;
         margin-bottom: 40px;
         margin-top: 100px;
-        /* margin-left: 30px; */
     }
-
     .grafica2 {
         display: flex;
         flex-direction: row;
@@ -449,8 +390,8 @@
         margin-top: 50px;
         margin-bottom: 50px;
         width: 50%;
+        
     }
-
     .titulov4-1 {
         font-family: 'Dosis', sans-serif;
         font-size: 20pt;
@@ -458,7 +399,6 @@
         padding: 40px 20px 40px 20px;
         width: 100px;
     }
-
     .lineatiempo {
         display: flex;
         padding: 0px 5px 5px 0px;
@@ -473,7 +413,6 @@
         margin-right: -26px;
         margin-top: 75px;
     }
-
     .lineatiempo:hover {
         display: flex;
         justify-content: center;
@@ -483,7 +422,6 @@
         background: #009458;
         /* margin-top: -1%; */
     }
-
     .mod {
         font-family: 'Dosis', sans-serif;
         font-size: 15pt;
@@ -497,83 +435,68 @@
         margin-top: 0;
         margin-left: 20px;
     }
-
     .mod:hover {
         margin-top: -10px;
         margin-left: 40px;
     }
-
     .modulo1 {
         z-index: 6;
     }
-
     .modulo1>.mod {
         margin-left: 0px;
     }
-
     .modulo1>.mod:hover {
         margin-top: 1px;
         
     }
-
     .modulo2 {
         z-index: 5;
         padding-left: 15px;
         padding-right: 1px;
     }
-
     .modulo3 {
         z-index: 4;
         padding-left: 15px;
         padding-right: 1px;
     }
-
     .modulo4 {
         z-index: 3;
         padding-left: 15px;
         padding-right: 1px;
     }
-
     .modulo5 {
         z-index: 2;
         padding-left: 15px;
         padding-right: 1px;
     }
-
     .modulo6 {
         z-index: 1;
         padding-left: 15px;
         padding-right: 1px;
     }
-
     .emoji {
         width: 50px;
         position: absolute;
     }
-
     .emoji:hover {
         width: 100px;
         left: -30px;
     }
-
     .arri {
         margin-top: -50px;
         margin-right: 50px;
         position: absolute
     }
-
     .aba {
         margin-top: 50px;
         padding-right: 50px;
         position: absolute
     }
-
     .arri:hover {
         margin-top: -100px;
     }
 }    
 /* Responsive tablet fin */
-
 
 /* Responsive desktop inicio */
 @media screen and (min-width: 1024px) and (max-width: 1920px) and (orientation: landscape) {
@@ -855,5 +778,6 @@
     .arri:hover {
         margin-top: -100px;
     }
+    
 }
 /* Responsive desktop fin */
